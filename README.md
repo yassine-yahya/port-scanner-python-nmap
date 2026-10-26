@@ -1,16 +1,17 @@
-Nmap Scanner with Python & Colorized Output
-📌 Description
+# Nmap Scanner with Python & Colorized Output
+## 📌 Description
 This script uses Nmap to scan a target for open ports and services. It highlights results using Colorama for better readability. automated scan for every 5 second.
 
-🚀 Features
-✅ Scans specified ports on a target host
-✅ Detects open/closed ports and their protocols
-✅ Uses Colorama to color-code output:
+### 🚀 Features
+- ✅ Scans specified ports on a target host
+- ✅ Detects open/closed ports and their protocols
+- ✅ Uses Colorama to color-code output:
 
-🟢 Green → Open ports
-🔴 Red → Closed ports
-🟡 Yellow → Filtered ports
-🔧 Requirements
+- 🟢 Green → Open ports
+- 🔴 Red → Closed ports
+- 🟡 Yellow → Filtered ports
+
+## 🔧 Requirements
 📌 Install dependencies before running:
 
 sh
@@ -39,7 +40,8 @@ python
 Copy
 Edit
 scanner.scan("192.168.1.1", "21,22,80,443")
-📜 Example Output
+
+### 📜 Example Output
 vbnet
 Copy
 Edit
