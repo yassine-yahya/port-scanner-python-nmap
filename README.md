@@ -49,7 +49,7 @@ Scanning...
 Host: scanme.nmap.org (45.33.32.156)
 State: up
 
-Protocol: tcp
-Port 22 is open  ✅
-Port 80 is closed ❌
-Port 443 is open  ✅
+### Protocol: tcp
+- Port 22 is open  ✅
+- Port 80 is closed ❌
+- Port 443 is open  ✅
